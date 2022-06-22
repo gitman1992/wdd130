@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    row-gap:50px;
+    grid-template-rows: 200px 600px 600px;
+}
+#success {
+    grid-column:1/1;
+    background-color: green;
+    
+}
+#first {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+

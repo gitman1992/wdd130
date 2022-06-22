@@ -1,0 +1,22 @@
+body{
+    background-color:green;
+}
+
+main{
+    display:grid;
+    grid-column: 1fr 1fr;
+    gap:20px;
+    row-gap:50px;
+    grid-template-rows: 200px 600px 600px;
+    align-self: center;
+}
+#success {
+    grid-column:1/1;
+    background-color: green;
+    
+}
+#first {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+

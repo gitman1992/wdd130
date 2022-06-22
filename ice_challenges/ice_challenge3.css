@@ -1,0 +1,14 @@
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+
+    
+}
+
+img{
+    display: grid;
+    grid-template-columns: 200px 100px;
+}
