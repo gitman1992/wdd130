@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@200&family=Bungee+Inline&display=swap');
+
+#logo_link{
+    padding-top: 500px;
+}
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +15,7 @@ nav a{
     text-align: center;
     color:rgb(99, 154, 99);
     text-decoration: none;
+    padding:35px;
 }
 
 #hero{
@@ -30,12 +38,23 @@ main section{
     text-align:center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
 }
 
 body{
     background-color:#495867;
+    font-family: "Big Shoulders Text";
+    padding: 0;
+    margin:0;
+}
+
+h2{
+    margin:0;
 }
 
 header{
@@ -51,12 +70,20 @@ nav a:hover{
     background-color: rgb(99, 154, 99);
     color:#bdd5ea ;
     text-decoration: none;
+    font-size: 30px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color:rgb(99, 154, 99);
     color: #f7f7ff;
     text-decoration: none;
+    font-size: 30px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 50px;
 }
 
 .book:hover{
@@ -73,12 +100,21 @@ nav a:hover{
     background-color: #bdd5ea;
 }
 
-.msg {
+.msg{
     background-color:#bdd5ea ;
+    padding: 35px;
 }
 
 footer{
     background-color: #bdd5ea;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.home-title{
+    font-family: "Bungee Inline";
+    font-size: 3em;
+    margin-top:10px;
 }
 
 .home-title h4{
@@ -87,10 +123,13 @@ footer{
 
 .msg h2{
     color:aqua;
+    font-family: "Bungee Inline"
 }
 
 .msg p{
-    color:yellow;
+    color:rgb(13, 0, 255);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3{
@@ -112,6 +151,7 @@ footer a:hover{
 
 .icon{
     width:80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -124,4 +164,24 @@ footer p{
 
 footer p a:hover{
     text-decoration:underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+    margin:200px 0;
+}
+
+.camping-card{
+    margin:200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border:10px solid #d9c2a3;
 }
