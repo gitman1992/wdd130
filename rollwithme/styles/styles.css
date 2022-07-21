@@ -56,16 +56,19 @@ main{
 #text-box1{
     font-size: 100px;
     z-index: 2;
+    font-family: 'Overlock SC', cursive;
 }
 
 #text-box2{
     font-size: 100px;
     z-index: 2;
+    font-family: 'Overlock SC', cursive;
 }
 
 #text-box3{
     font-size: 100px;
     z-index: 2;
+    font-family: 'Overlock SC', cursive;
 }
 
 
