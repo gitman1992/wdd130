@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Sedgwick+Ave+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Sedgwick+Ave+Display&display=swap');
 
 
 body{
@@ -37,6 +37,7 @@ nav a{
     text-decoration: none;
     padding:35px;
     font-size: 5em;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 #hero-image{
