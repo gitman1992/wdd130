@@ -48,9 +48,44 @@ main{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.home-grid{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
 #hero-image{
     width:100%;
+}
+
+.card-img1{
+    grid-column:1/2;
+    grid-row:1/2;
+    max-width: 275px;
+
+}
+
+.card-img2{
+    grid-column:1/2;
+    grid-row:2/3;
+    max-width: 275px;
+}
+
+.card-img3{
+    grid-column:1/2;
+    grid-row:3/4;
+}
+
+.cardio-card{
+    grid-column: 2/3;
+}
+
+.strength-card{
+    grid-column: 2/3;
+}
+
+.mobility-card{
+    grid-column: 2/3;
 }
 
 #text-box1{
@@ -71,6 +106,20 @@ main{
     font-family: 'Overlock SC', cursive;
 }
 
+.cardio-card{
+    font-size: 50px;
+    font-family: 'Overlock SC', cursive;
+}
+
+.strength-card{
+    font-size: 50px;
+    font-family: 'Overlock SC', cursive;
+}
+
+.mobility-card{
+    font-size: 50px;
+    font-family: 'Overlock SC', cursive;
+}
 
 .comp-background, #text-box1{
     width:100%;
