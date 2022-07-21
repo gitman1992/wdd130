@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Sedgwick+Ave+Display&display=swap");
+
+
+body{
+    background-color:#ABD2FA;
+}
+
+#content{
+    width:100%;
+}
+
+
+header{
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color:#DADADA ;
+}
+
+#logo_link{
+    /* padding-top: 10px;
+    justify-self: center; */
+     align-self: center;
+} 
+
+.logo{
+    width:300px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color:#445128;
+    text-decoration: none;
+    padding:35px;
+    font-size: 5em;
+}
+
+#hero-image{
+    width:100%;
+}
+
+footer{
+    background-color:#DADADA;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
