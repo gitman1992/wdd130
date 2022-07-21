@@ -33,11 +33,12 @@ nav{
 
 nav a{
     text-align: center;
-    color:#445128;
+    color: rgb(69, 69, 69);
     text-decoration: none;
     padding:35px;
     font-size: 5em;
     font-family: 'Sedgwick Ave Display', cursive;
+    margin-top: 40px;
 }
 
 #hero-image{
